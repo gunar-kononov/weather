@@ -1,0 +1,7 @@
+/.bundle
+/.idea
+/coverage
+/pkg
+/spec/examples.txt
+/vendor/bundle
+/Gemfile.lock

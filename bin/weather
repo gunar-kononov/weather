@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'weather'
+require 'weather/sources/tiempo'
+require File.expand_path('../config/environment', __dir__)
+
+Weather::CLI.call(ARGV)
