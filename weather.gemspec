@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.license = 'MIT'
   gem.required_ruby_version = Gem::Requirement.new('>= 2.7.0')
 
-  gem.files = Dir.glob(File.join('lib', '**', '*.rb')) + %w(LICENSE.txt README.md)
+  gem.files = Dir.glob(File.join('{config,lib}', '**', '*.rb')) + %w(LICENSE.txt README.md)
   gem.executables = ['weather']
   gem.require_paths = ['lib']
 
